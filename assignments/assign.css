@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar{
+    width: 100%;
+}
+#nav_list{
+    background: black;
+    display: flex;
+}
+#left_list{
+    width: 60%;
+    height: 2.5rem;
+}
+#left_list li {
+    display: inline-block; 
+    text-decoration: none; 
+}
+#left_list li a {
+    text-decoration: none;
+}
+#left_list li a h2{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+#left_list input{
+    background-color: #342d2d;
+    padding: 5px 5px;
+    /* color: white; */
+    border-radius: 8px;
+}
+#left_list input[type=text]{
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+#right_list li{
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+}
+#right_list a{
+    text-decoration: none;
+    color: white;
+}
+.iconify{
+    padding-right: 2px;
+    padding-top: 5px;
+}
+.bgImage{
+    width: 100%;
+    height: 95vh;
+    background: url(./bgImg1.webp);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.7em; 
+    padding-top: 80px;
+}
+.link{
+    margin-top: 15px;
+}
+.link a{
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    margin-top: 50px;
+}
+.green{
+    background-color: yellowgreen;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.blue{
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+}
+.card{
+    background-color: white;
+    width: 100%;
+    height: 75vh;
+    padding: 40px;
+    padding-top: 40px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* margin: 100px;
+    margin-left: 20px; */
+}
+.cards_comp{
+    
+    /* background-color: crimson; */
+    justify-content: space-between;
+    border: 1px solid black;
+    padding:10px;
+    
+}
+.my_comps{
+    display: flex;
+    justify-content: space-around;
+}
+.data_avatar{
+    display: flex;
+    justify-content: space-between;
+}
+.data_avatar img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 5px;
+}
+.avatar_data{
+    flex-direction: column;
+    padding: 10px;
+}
+.my_comps{
+    padding: 30px;
+    display: flex;
+}
+.data_foot p{
+    color: gray;
+}
+.other_links{
+    width: 100%;
+    height: 25vh;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.other_links li{
+    list-style: none;
+    margin-left: 45px;
+    font-size: 1rem;
+    color: gray;
+}
+li:hover{
+    color: rgb(56, 54, 54);
+    cursor: pointer;
+}
+.my_footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #1a1818;
+    padding: 10px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.left_foot{
+    display: flex;
+}
+.li_style{
+    padding-left: 2rem;
+}
+.li_style h4{
+    color: white;
+}
+.li_style li{
+    list-style: none;
+    color: #8f8b8b;
+    cursor: pointer;
+}
+.li_style li:hover{
+    color: rgb(77, 75, 75);
+}
+hr{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.icons{
+    padding-left: 200px;
+    cursor: pointer;
+}
+.footer_data{
+    padding-top: 100px;
+    justify-content: last baseline;
+    padding-right: 20px;
+}
+.footer_data p{
+    color: #535252;
+}
+@media screen and (max-width: 850px){
+    #navbar{
+        border: 8px solid black;
+    }
+    #nav_list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .bgImage{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        align-items: center;
+    }
+    .link{
+        padding: 5px;   
+    }
+    .link a{
+        margin: 10px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+    .other_links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 30px;
+        font-size: x-large;
+        height: 40vh;
+    }
+    .other_links li{
+        font-size: x-large;
+    }
+    .iconify{
+        height: 40px;
+        width: 40px;
+    }
+    .my_footer{
+        height: 80vh;
+    }
+    .left_foot{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
+}
