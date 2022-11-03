@@ -1,14 +1,14 @@
-.bg_col{
-    background-color: red;
+.bg_col {
+  background-color: red;
 }
-.mx_auto{
-    margin: auto;
+.mx_auto {
+  margin: auto;
 }
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.fle_col{
-    flex-direction: column;
+.fle_col {
+  flex-direction: column;
 }
